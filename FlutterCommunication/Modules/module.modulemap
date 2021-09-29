@@ -1,0 +1,11 @@
+framework module FccAbstractCore {
+  umbrella header "FccAbstractCore.h"
+
+  export *
+  module * { export * }
+}
+
+module FccAbstractCore.Swift {
+    header "FccAbstractCore-Swift.h"
+    requires objc
+}

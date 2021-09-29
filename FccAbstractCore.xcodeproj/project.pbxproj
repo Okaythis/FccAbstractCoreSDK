@@ -1,0 +1,1114 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3031B522668E80000A95B95 /* FccAbstractCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3031B482668E80000A95B95 /* FccAbstractCore.framework */; };
+		C3031B572668E80000A95B95 /* FccAbstractCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3031B562668E80000A95B95 /* FccAbstractCoreTests.swift */; };
+		C3031B592668E80000A95B95 /* FccAbstractCore.h in Headers */ = {isa = PBXBuildFile; fileRef = C3031B4B2668E80000A95B95 /* FccAbstractCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3286082266F861100C3DDAA /* TransactionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328607C266F861100C3DDAA /* TransactionRequest.swift */; };
+		C3286086266F861100C3DDAA /* AuthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3286080266F861100C3DDAA /* AuthData.swift */; };
+		C328608F266F89D800C3DDAA /* AbstractFlutterEngineDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328608E266F89D800C3DDAA /* AbstractFlutterEngineDependency.swift */; };
+		C34AABF1267A24CA00AEF970 /* FlutterEngineDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34AABEF267A24CA00AEF970 /* FlutterEngineDependency.swift */; };
+		C34AABF2267A24CA00AEF970 /* FccData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34AABF0267A24CA00AEF970 /* FccData.swift */; };
+		C39786F22668EF1400021F30 /* FccAbstractCore.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C39786F12668EF1400021F30 /* FccAbstractCore.podspec */; };
+		C3AE0CE2266A4AC600391D9D /* AbstractUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AE0CD4266A4AC600391D9D /* AbstractUIViewController.swift */; };
+		C3AE0CE3266A4AC600391D9D /* NotificationReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AE0CD6266A4AC600391D9D /* NotificationReceiver.swift */; };
+		C3AE0CE4266A4AC600391D9D /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AE0CD7266A4AC600391D9D /* NotificationHandler.swift */; };
+		C3AE0CE5266A4AC600391D9D /* Parcel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AE0CD9266A4AC600391D9D /* Parcel.swift */; };
+		C3AE0CE6266A4AC600391D9D /* NativeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AE0CDB266A4AC600391D9D /* NativeHandler.swift */; };
+		C3AE0CE7266A4AC600391D9D /* Messenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AE0CDD266A4AC600391D9D /* Messenger.swift */; };
+		C3AE0CE8266A4AC600391D9D /* FccApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AE0CDF266A4AC600391D9D /* FccApi.swift */; };
+		C3AE0CE9266A4AC600391D9D /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AE0CE1266A4AC600391D9D /* Channel.swift */; };
+		C3AE0CEC266A4B6200391D9D /* CrossPlatformUIReceivers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AE0CEB266A4B6200391D9D /* CrossPlatformUIReceivers.swift */; };
+		C3AE0CEF266A4BC800391D9D /* AbstractFccData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AE0CEE266A4BC800391D9D /* AbstractFccData.swift */; };
+		D2EA48232685E06C005DA179 /* DisplayArtifact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EA48222685E06C005DA179 /* DisplayArtifact.swift */; };
+		D2EA48252685E075005DA179 /* PrivateChannelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EA48242685E075005DA179 /* PrivateChannelData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3031B532668E80000A95B95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3031B3F2668E80000A95B95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3031B472668E80000A95B95;
+			remoteInfo = FccAbstractCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3031B482668E80000A95B95 /* FccAbstractCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FccAbstractCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3031B4B2668E80000A95B95 /* FccAbstractCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FccAbstractCore.h; sourceTree = "<group>"; };
+		C3031B4C2668E80000A95B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3031B512668E80000A95B95 /* FccAbstractCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FccAbstractCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3031B562668E80000A95B95 /* FccAbstractCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FccAbstractCoreTests.swift; sourceTree = "<group>"; };
+		C3031B582668E80000A95B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C328607C266F861100C3DDAA /* TransactionRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionRequest.swift; sourceTree = "<group>"; };
+		C3286080266F861100C3DDAA /* AuthData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthData.swift; sourceTree = "<group>"; };
+		C328608E266F89D800C3DDAA /* AbstractFlutterEngineDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFlutterEngineDependency.swift; sourceTree = "<group>"; };
+		C34AABEF267A24CA00AEF970 /* FlutterEngineDependency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlutterEngineDependency.swift; sourceTree = "<group>"; };
+		C34AABF0267A24CA00AEF970 /* FccData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FccData.swift; sourceTree = "<group>"; };
+		C39786F12668EF1400021F30 /* FccAbstractCore.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FccAbstractCore.podspec; sourceTree = "<group>"; };
+		C3AE0CD4266A4AC600391D9D /* AbstractUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractUIViewController.swift; sourceTree = "<group>"; };
+		C3AE0CD6266A4AC600391D9D /* NotificationReceiver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationReceiver.swift; sourceTree = "<group>"; };
+		C3AE0CD7266A4AC600391D9D /* NotificationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
+		C3AE0CD9266A4AC600391D9D /* Parcel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parcel.swift; sourceTree = "<group>"; };
+		C3AE0CDB266A4AC600391D9D /* NativeHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeHandler.swift; sourceTree = "<group>"; };
+		C3AE0CDD266A4AC600391D9D /* Messenger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messenger.swift; sourceTree = "<group>"; };
+		C3AE0CDF266A4AC600391D9D /* FccApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FccApi.swift; sourceTree = "<group>"; };
+		C3AE0CE1266A4AC600391D9D /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		C3AE0CEB266A4B6200391D9D /* CrossPlatformUIReceivers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossPlatformUIReceivers.swift; sourceTree = "<group>"; };
+		C3AE0CEE266A4BC800391D9D /* AbstractFccData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFccData.swift; sourceTree = "<group>"; };
+		D2EA48222685E06C005DA179 /* DisplayArtifact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayArtifact.swift; sourceTree = "<group>"; };
+		D2EA48242685E075005DA179 /* PrivateChannelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateChannelData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3031B452668E80000A95B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3031B4E2668E80000A95B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3031B522668E80000A95B95 /* FccAbstractCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		008D76493A22F147870E26F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3031B3E2668E80000A95B95 = {
+			isa = PBXGroup;
+			children = (
+				C39786F12668EF1400021F30 /* FccAbstractCore.podspec */,
+				C3031B4A2668E80000A95B95 /* FccAbstractCore */,
+				C3031B552668E80000A95B95 /* FccAbstractCoreTests */,
+				C3031B492668E80000A95B95 /* Products */,
+				008D76493A22F147870E26F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C3031B492668E80000A95B95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3031B482668E80000A95B95 /* FccAbstractCore.framework */,
+				C3031B512668E80000A95B95 /* FccAbstractCoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3031B4A2668E80000A95B95 /* FccAbstractCore */ = {
+			isa = PBXGroup;
+			children = (
+				C3AE0CED266A4BB200391D9D /* Data */,
+				C3AE0CD2266A4AC600391D9D /* Protocols */,
+				C3031B4B2668E80000A95B95 /* FccAbstractCore.h */,
+				C3031B4C2668E80000A95B95 /* Info.plist */,
+			);
+			path = FccAbstractCore;
+			sourceTree = "<group>";
+		};
+		C3031B552668E80000A95B95 /* FccAbstractCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3031B562668E80000A95B95 /* FccAbstractCoreTests.swift */,
+				C3031B582668E80000A95B95 /* Info.plist */,
+			);
+			path = FccAbstractCoreTests;
+			sourceTree = "<group>";
+		};
+		C328607B266F861100C3DDAA /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				D2EA48242685E075005DA179 /* PrivateChannelData.swift */,
+				D2EA48222685E06C005DA179 /* DisplayArtifact.swift */,
+				C34AABF0267A24CA00AEF970 /* FccData.swift */,
+				C34AABEF267A24CA00AEF970 /* FlutterEngineDependency.swift */,
+				C328607C266F861100C3DDAA /* TransactionRequest.swift */,
+				C3286080266F861100C3DDAA /* AuthData.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		C3AE0CD2266A4AC600391D9D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C3AE0CEA266A4B3A00391D9D /* Receivers */,
+				C3AE0CD3266A4AC600391D9D /* UI */,
+				C3AE0CD5266A4AC600391D9D /* Notification */,
+				C3AE0CD8266A4AC600391D9D /* Parcel */,
+				C3AE0CDA266A4AC600391D9D /* NativeHandler */,
+				C3AE0CDC266A4AC600391D9D /* Messenger */,
+				C3AE0CDE266A4AC600391D9D /* FCC */,
+				C3AE0CE0266A4AC600391D9D /* Channels */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C3AE0CD3266A4AC600391D9D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C3AE0CD4266A4AC600391D9D /* AbstractUIViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C3AE0CD5266A4AC600391D9D /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				C3AE0CD6266A4AC600391D9D /* NotificationReceiver.swift */,
+				C3AE0CD7266A4AC600391D9D /* NotificationHandler.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		C3AE0CD8266A4AC600391D9D /* Parcel */ = {
+			isa = PBXGroup;
+			children = (
+				C3AE0CD9266A4AC600391D9D /* Parcel.swift */,
+			);
+			path = Parcel;
+			sourceTree = "<group>";
+		};
+		C3AE0CDA266A4AC600391D9D /* NativeHandler */ = {
+			isa = PBXGroup;
+			children = (
+				C3AE0CDB266A4AC600391D9D /* NativeHandler.swift */,
+			);
+			path = NativeHandler;
+			sourceTree = "<group>";
+		};
+		C3AE0CDC266A4AC600391D9D /* Messenger */ = {
+			isa = PBXGroup;
+			children = (
+				C3AE0CDD266A4AC600391D9D /* Messenger.swift */,
+			);
+			path = Messenger;
+			sourceTree = "<group>";
+		};
+		C3AE0CDE266A4AC600391D9D /* FCC */ = {
+			isa = PBXGroup;
+			children = (
+				C3AE0CDF266A4AC600391D9D /* FccApi.swift */,
+			);
+			path = FCC;
+			sourceTree = "<group>";
+		};
+		C3AE0CE0266A4AC600391D9D /* Channels */ = {
+			isa = PBXGroup;
+			children = (
+				C3AE0CE1266A4AC600391D9D /* Channel.swift */,
+			);
+			path = Channels;
+			sourceTree = "<group>";
+		};
+		C3AE0CEA266A4B3A00391D9D /* Receivers */ = {
+			isa = PBXGroup;
+			children = (
+				C3AE0CEB266A4B6200391D9D /* CrossPlatformUIReceivers.swift */,
+			);
+			path = Receivers;
+			sourceTree = "<group>";
+		};
+		C3AE0CED266A4BB200391D9D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C328607B266F861100C3DDAA /* DTO */,
+				C3AE0CEE266A4BC800391D9D /* AbstractFccData.swift */,
+				C328608E266F89D800C3DDAA /* AbstractFlutterEngineDependency.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C3031B432668E80000A95B95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3031B592668E80000A95B95 /* FccAbstractCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C3031B472668E80000A95B95 /* FccAbstractCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3031B5C2668E80000A95B95 /* Build configuration list for PBXNativeTarget "FccAbstractCore" */;
+			buildPhases = (
+				C3031B432668E80000A95B95 /* Headers */,
+				C3031B442668E80000A95B95 /* Sources */,
+				C3031B452668E80000A95B95 /* Frameworks */,
+				C3031B462668E80000A95B95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FccAbstractCore;
+			productName = FccAbstractCore;
+			productReference = C3031B482668E80000A95B95 /* FccAbstractCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3031B502668E80000A95B95 /* FccAbstractCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3031B5F2668E80000A95B95 /* Build configuration list for PBXNativeTarget "FccAbstractCoreTests" */;
+			buildPhases = (
+				C3031B4D2668E80000A95B95 /* Sources */,
+				C3031B4E2668E80000A95B95 /* Frameworks */,
+				C3031B4F2668E80000A95B95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3031B542668E80000A95B95 /* PBXTargetDependency */,
+			);
+			name = FccAbstractCoreTests;
+			productName = FccAbstractCoreTests;
+			productReference = C3031B512668E80000A95B95 /* FccAbstractCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3031B3F2668E80000A95B95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C3031B472668E80000A95B95 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					C3031B502668E80000A95B95 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = C3031B422668E80000A95B95 /* Build configuration list for PBXProject "FccAbstractCore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3031B3E2668E80000A95B95;
+			productRefGroup = C3031B492668E80000A95B95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3031B472668E80000A95B95 /* FccAbstractCore */,
+				C3031B502668E80000A95B95 /* FccAbstractCoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3031B462668E80000A95B95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39786F22668EF1400021F30 /* FccAbstractCore.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3031B4F2668E80000A95B95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3031B442668E80000A95B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34AABF2267A24CA00AEF970 /* FccData.swift in Sources */,
+				C3AE0CE2266A4AC600391D9D /* AbstractUIViewController.swift in Sources */,
+				C34AABF1267A24CA00AEF970 /* FlutterEngineDependency.swift in Sources */,
+				C3AE0CE9266A4AC600391D9D /* Channel.swift in Sources */,
+				D2EA48232685E06C005DA179 /* DisplayArtifact.swift in Sources */,
+				C3AE0CE7266A4AC600391D9D /* Messenger.swift in Sources */,
+				D2EA48252685E075005DA179 /* PrivateChannelData.swift in Sources */,
+				C3286082266F861100C3DDAA /* TransactionRequest.swift in Sources */,
+				C3AE0CE4266A4AC600391D9D /* NotificationHandler.swift in Sources */,
+				C328608F266F89D800C3DDAA /* AbstractFlutterEngineDependency.swift in Sources */,
+				C3AE0CEF266A4BC800391D9D /* AbstractFccData.swift in Sources */,
+				C3AE0CE5266A4AC600391D9D /* Parcel.swift in Sources */,
+				C3AE0CEC266A4B6200391D9D /* CrossPlatformUIReceivers.swift in Sources */,
+				C3AE0CE6266A4AC600391D9D /* NativeHandler.swift in Sources */,
+				C3286086266F861100C3DDAA /* AuthData.swift in Sources */,
+				C3AE0CE8266A4AC600391D9D /* FccApi.swift in Sources */,
+				C3AE0CE3266A4AC600391D9D /* NotificationReceiver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3031B4D2668E80000A95B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3031B572668E80000A95B95 /* FccAbstractCoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3031B542668E80000A95B95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3031B472668E80000A95B95 /* FccAbstractCore */;
+			targetProxy = C3031B532668E80000A95B95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C3031B5A2668E80000A95B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3031B5B2668E80000A95B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3031B5D2668E80000A95B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JW7SHR8USN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FccAbstractCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.okaythis.FccAbstractCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3031B5E2668E80000A95B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JW7SHR8USN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FccAbstractCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.okaythis.FccAbstractCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C3031B602668E80000A95B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JW7SHR8USN;
+				INFOPLIST_FILE = FccAbstractCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.okaythis.FccAbstractCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3031B612668E80000A95B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JW7SHR8USN;
+				INFOPLIST_FILE = FccAbstractCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.okaythis.FccAbstractCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D20FB761268DC2DC00EF7FBF /* Debug Stage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Debug Stage";
+		};
+		D20FB762268DC2DC00EF7FBF /* Debug Stage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JW7SHR8USN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FccAbstractCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.okaythis.FccAbstractCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug Stage";
+		};
+		D20FB763268DC2DC00EF7FBF /* Debug Stage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JW7SHR8USN;
+				INFOPLIST_FILE = FccAbstractCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.okaythis.FccAbstractCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug Stage";
+		};
+		D2EA47F22680B622005DA179 /* Release Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Release Prod";
+		};
+		D2EA47F32680B622005DA179 /* Release Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JW7SHR8USN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FccAbstractCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.okaythis.FccAbstractCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release Prod";
+		};
+		D2EA47F42680B622005DA179 /* Release Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JW7SHR8USN;
+				INFOPLIST_FILE = FccAbstractCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.okaythis.FccAbstractCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release Prod";
+		};
+		D2F7184726FB123700F580F4 /* Debug Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Debug Prod";
+		};
+		D2F7184826FB123700F580F4 /* Debug Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JW7SHR8USN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FccAbstractCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.okaythis.FccAbstractCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug Prod";
+		};
+		D2F7184926FB123700F580F4 /* Debug Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JW7SHR8USN;
+				INFOPLIST_FILE = FccAbstractCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.okaythis.FccAbstractCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug Prod";
+		};
+		D2FCA40126FDADD800EF3CC1 /* Release Stage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Release Stage";
+		};
+		D2FCA40226FDADD800EF3CC1 /* Release Stage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JW7SHR8USN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FccAbstractCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.okaythis.FccAbstractCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release Stage";
+		};
+		D2FCA40326FDADD800EF3CC1 /* Release Stage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JW7SHR8USN;
+				INFOPLIST_FILE = FccAbstractCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.okaythis.FccAbstractCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release Stage";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3031B422668E80000A95B95 /* Build configuration list for PBXProject "FccAbstractCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3031B5A2668E80000A95B95 /* Debug */,
+				D2F7184726FB123700F580F4 /* Debug Prod */,
+				D20FB761268DC2DC00EF7FBF /* Debug Stage */,
+				C3031B5B2668E80000A95B95 /* Release */,
+				D2FCA40126FDADD800EF3CC1 /* Release Stage */,
+				D2EA47F22680B622005DA179 /* Release Prod */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug Prod";
+		};
+		C3031B5C2668E80000A95B95 /* Build configuration list for PBXNativeTarget "FccAbstractCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3031B5D2668E80000A95B95 /* Debug */,
+				D2F7184826FB123700F580F4 /* Debug Prod */,
+				D20FB762268DC2DC00EF7FBF /* Debug Stage */,
+				C3031B5E2668E80000A95B95 /* Release */,
+				D2FCA40226FDADD800EF3CC1 /* Release Stage */,
+				D2EA47F32680B622005DA179 /* Release Prod */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug Prod";
+		};
+		C3031B5F2668E80000A95B95 /* Build configuration list for PBXNativeTarget "FccAbstractCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3031B602668E80000A95B95 /* Debug */,
+				D2F7184926FB123700F580F4 /* Debug Prod */,
+				D20FB763268DC2DC00EF7FBF /* Debug Stage */,
+				C3031B612668E80000A95B95 /* Release */,
+				D2FCA40326FDADD800EF3CC1 /* Release Stage */,
+				D2EA47F42680B622005DA179 /* Release Prod */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug Prod";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3031B3F2668E80000A95B95 /* Project object */;
+}
