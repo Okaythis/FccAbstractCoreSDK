@@ -14,4 +14,6 @@ public enum CrossPlatformUIReceivers: String {
     case SHOW_TRANSACTION_APPROVED_SCREEN = "authorizationApproved"
     case SHOW_TRANSACTION_DECLINED_SCREEN = "authorizationDeclined"
     case CREATE_PRIVATE_CHANNEL = "createPrivateChannel"
+    case HIDE_PROGRESS_SCREEN = "hideProgressScreen"
+    case SHOW_PROGRESS_SCREEN = "showProgressScreen"
 }

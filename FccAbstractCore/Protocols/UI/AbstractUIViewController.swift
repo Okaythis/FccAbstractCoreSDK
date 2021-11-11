@@ -15,4 +15,6 @@ public protocol AbstractUIViewController {
     func hideUI() -> Void
     func showTransactionApprovedScreen() -> Void
     func showTransactionDeclinedScreen() -> Void
+    func showProgressScreen() -> Void
+    func hideProgressScreen() -> Void
 }

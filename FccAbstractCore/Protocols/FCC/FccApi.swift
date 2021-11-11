@@ -41,4 +41,12 @@ public protocol FccApi {
     /**
      * Commands the Flutter UI module to display the rejection screen*/
     func showTransactionDeclinedScreen()
+    
+    
+    /// Commands the Flutter UI module to display the progress screen
+    func showProgressScreen()
+    
+    
+    /// Commands the Flutter UI module to hide the progress screen
+    func hideProgressScreen()
 }
